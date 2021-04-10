@@ -2,7 +2,7 @@
   "name": "org-tree",
   "version": "0.1.0",
   "private": true,
-  "publicPath": "../../",
+  "publicPath": "./",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"

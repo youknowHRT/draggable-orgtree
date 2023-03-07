@@ -66,7 +66,7 @@ export default {
       // 通过eventBus获取拖曳数组的index'
       console.log(e.dataTransfer.dropEffect,'dragend拖放dropEffect操作效果');
       let dropEffect=e.dataTransfer.dropEffect
-      if(dropEffect=="move"){
+      if(dropEffect=="copy"){
         if(eventBus.fatherToSonState){
         console.log('移动到子节点了,啥也不做');
         return
